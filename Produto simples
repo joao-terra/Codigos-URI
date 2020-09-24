@@ -1,0 +1,12 @@
+#include <stdio.h>
+ 
+int main() {
+  int A , B , prod;
+  printf("digite o primeiro número da multiplicação: \n");
+  scanf("%i" , &A);
+  printf("digite o segundo número da multiplicação: \n");
+  scanf("%i" , &B);
+  prod = A * B ;
+  printf("PROD = %i\n" , prod);
+    return 0;
+}
