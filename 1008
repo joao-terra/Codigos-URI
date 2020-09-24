@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+int main() {
+    int cracha/*numero do funcionario*/, horas;
+    float valor , salario;
+    
+    scanf("%i" , &cracha);
+    scanf("%i" , &horas);
+    scanf("%f" , &valor);
+    
+    salario = valor * horas;
+    
+    printf("NUMBER = %i\nSALARY = U$ %.2f\n" , cracha , salario);
+    
+    
+    return 0;
+}
