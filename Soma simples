@@ -2,13 +2,9 @@
  
 int main() {
  
-  int A , B , soma ;
-  printf ("digite o primeiro número da soma: \n" );
-  scanf ("%i" , &A);
-  printf ("digite o segundo número da soma: \n");
-  scanf ("%i" , &B);
-  soma = A + B;
-  printf ("SOMA = %i\n" , soma);
-  
+ int A , B , soma;
+ scanf("%i %i" , &A, &B);
+ soma = A + B;
+ printf("SOMA = %i\n" , soma);
     return 0;
 }
