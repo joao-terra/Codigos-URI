@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int km;
+    float kmg, gasosa;
+    scanf ("%i", &km);
+    scanf ("%f", &gasosa);
+    kmg = km/gasosa;
+    printf ("%.3f km/l\n", kmg);
+ 
+    return 0;
+}
