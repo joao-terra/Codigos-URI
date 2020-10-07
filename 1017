@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int tempo, velo, dist;
+    scanf ("%i", &tempo);
+    scanf ("%i", &velo);
+    dist = tempo*velo;
+    double gasta;
+    gasta = dist/12.0;
+    printf ("%.3lf\n", gasta);
+ 
+    return 0;
+}
