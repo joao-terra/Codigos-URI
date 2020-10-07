@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int cod1 , num1 , cod2 , num2;
+    float valor1 , valor2 , valort;
+    scanf ("%i %i %f", &cod1, &num1 , &valor1);
+    scanf ("%i %i %f", &cod2, &num2 , &valor2);
+    valort = num1*valor1 + num2*valor2;
+    printf ("VALOR A PAGAR: R$ %.2F\n", valort);
+ 
+    return 0;
+}
