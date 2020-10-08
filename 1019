@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int segt=0, seg=0, mint=0, min=0, h=0;
+    scanf ("%i", &segt);
+    mint = segt/60;
+    h = mint/60;
+    min = mint - h*60;
+    seg = segt - min*60 - h*60*60;
+    printf ("%i:%i:%i\n", h,min,seg);    
+    
+    return 0;
+}
