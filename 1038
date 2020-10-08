@@ -1,0 +1,39 @@
+#include <stdio.h>
+ 
+int main() {
+     int cod=0 , quant=0;
+float t;
+
+scanf("%d %d", &cod ,&quant);
+
+if (cod==1){
+t = 4*quant;
+printf("Total: R$ %.2f\n",t);
+}
+else
+
+if (cod==2){
+t = 4.5*quant;
+printf("Total: R$ %.2f\n",t);
+}
+else
+
+if (cod==3){
+t = 5*quant;
+printf("Total: R$ %.2f\n",t);
+}
+else
+
+if (cod==4){
+t = 2*quant;
+printf("Total: R$ %.2f\n",t);
+}
+else
+
+if (cod==5){
+t = 1.5*quant;
+printf("Total: R$ %.2f\n",t);
+}
+ 
+    return 0;
+}
