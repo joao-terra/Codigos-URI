@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int diat=0, dia=0,mes=0, ano=0;
+    scanf ("%i",&diat);
+    
+    ano = diat/365;
+    mes = diat/30 - ano*12;
+    dia = diat - mes*30 -ano*365;
+    
+    printf("%i ano(s)\n%i mes(es)\n%i dia(s)\n", ano, mes, dia);
+    
+    
+    return 0;
+}
