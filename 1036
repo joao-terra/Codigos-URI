@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+ 
+    double a, b, c, delt, t;
+    scanf ("%lf %lf %lf", &a, &b, &c);
+    delt = (b*b) -(4*a*c);
+    if(delt<0)printf("Impossivel calcular\n");
+    else if (a ==0)printf("Impossivel calcular\n");
+    else {
+        t = sqrt((b * b) - 4 * a * c);
+        printf("R1 = %.5lf\nR2 = %.5lf\n", ((-b + t) / (2 * a)), ((-b - t) / (2 * a)));
+    }
+    return 0;
+}
