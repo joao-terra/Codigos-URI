@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include <stdlib.h>
+
+int main(){
+  
+    int N=0, a=0, in=0, out=0, b=0;
+  
+    scanf("%i", &N);
+  
+    for(b=0;b<N;b++){
+        scanf("%i",&a);
+        if((a>=10) && (a<=20)){
+            in++;
+        }else{
+            out++;
+        }
+    }
+  
+    printf("%i in\n", in);
+    printf("%i out\n",out);
+    return 0;
+}
