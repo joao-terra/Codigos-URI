@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int N=0,x=0,a=0,b=0;
+    scanf("%i", &N);
+    for(x=1; x<=N; x++)
+    {
+        a=x*x;
+        b=x*x*x;
+        printf("%d %d %d\n",x,a,b);
+    }
+    return 0;
+}
