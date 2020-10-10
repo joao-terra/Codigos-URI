@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int a=0,b=0,c=0,d=0,e=0;
+    scanf("%i", &d);
+    do{
+        scanf("%i", &e);
+    }
+    while(d>=e);
+    for(a=d,b=0; b<e; a++)
+    {
+        b+=a;
+        c++;
+    }
+    printf("%i\n", c);
+    return 0;
+}
